@@ -1,0 +1,93 @@
+/* General for fonts and colors */
+body {
+  margin: 100px;
+  font-family: 'Open Sans', sans-serif;
+  color: #BFBFBF;
+  background: #E8E8E8;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+h1{
+  font-size: 24px;
+  color: #FF1A27;
+}
+h2{
+  font-size: 20px;
+}
+h3{
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+}
+.text-center{
+  text-align: center;
+}
+
+.social_media {
+  font-size: 14;
+}
+
+
+/* button properties */
+.med-button {
+  background: #FC1C07;
+  border-radius: 3px;
+  padding: 6px 20px;
+  margin: 4px;
+  color: #FFFFFF;
+}
+
+/* link properties */
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-flex;
+  padding: 0px 20px;
+}
+.list-inline {
+  padding-left: 0px;
+}
+
+a {
+  color: #FC1C07;
+}
+
+a:hover {
+  color: #3F3F3F;
+}
+
+/* table */
+td {
+  align-content: top;
+  padding: 10px;
+}
+
+/* imgage properties */
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-med-rectangle {
+  width: 150px;
+}
+
+
+/* card properties */
+.card {
+  background: white;
+  width: 550px;
+  border-radius: 2px;
+  border: 1px solid lightgrey;
+  padding: 25px;
+  margin: 20px auto;
+  box-shadow: 1px 1px 2px 1px #ddd;
+}
+
